@@ -248,12 +248,105 @@ parse_config:
       shifted: $$mdi:bluetooth-connect$$
       tap: ""
       hold: $$mdi:arrow-down-bold$$
+    "&usb_linux":
+      tap: 'USB Linux'
+    "&usb_mac":
+      tap: 'USB macOS'
     # Reset
     "&sys_reset":
       type: bootloader
       tap: $$mdi:backup-restore$$
     "&bootloader":
       tap: $$mdi:progress-download$$
+    "&uc 0xE0 0xC0":
+      tap: 'à'
+      shifted: 'À'
+    "&uc 0xE1 0xC1":
+      tap: 'á'
+      shifted: 'Á'
+    "&uc 0xE2 0xC2":
+      tap: 'â'
+      shifted: 'Â'
+    "&uc 0xE3 0xC3":
+      tap: 'ã'
+      shifted: 'Ã'
+    "&uc 0xE4 0xC4":
+      tap: 'ä'
+      shifted: 'Ä'
+    "&uc 0xE5 0xC5":
+      tap: 'å'
+      shifted: 'Å'
+    "&uc 0xE7 0xC7":
+      tap: 'ç'
+      shifted: 'Ç'
+    "&uc 0xE8 0xC8":
+      tap: 'è'
+      shifted: 'È'
+    "&uc 0xE9 0xC9":
+      tap: 'é'
+      shifted: 'É'
+    "&uc 0xEA 0xCA":
+      tap: 'ê'
+      shifted: 'Ê'
+    "&uc 0xEB 0xCB":
+      tap: 'ë'
+      shifted: 'Ë'
+    "&uc 0xEC 0xCC":
+      tap: 'ì'
+      shifted: 'Ì'
+    "&uc 0xED 0xCD":
+      tap: 'í'
+      shifted: 'Í'
+    "&uc 0xEE 0xCE":
+      tap: 'î'
+      shifted: 'Î'
+    "&uc 0xEF 0xCF":
+      tap: 'ï'
+      shifted: 'Ï'
+    "&uc 0xF1 0xD1":
+      tap: 'ñ'
+      shifted: 'Ñ'
+    "&uc 0xF2 0xD2":
+      tap: 'ò'
+      shifted: 'Ò'
+    "&uc 0xF3 0xD3":
+      tap: 'ó'
+      shifted: 'Ó'
+    "&uc 0xF4 0xD4":
+      tap: 'ô'
+      shifted: 'Ô'
+    "&uc 0xF5 0xD5":
+      tap: 'õ'
+      shifted: 'Õ'
+    "&uc 0xF6 0xD6":
+      tap: 'ö'
+      shifted: 'Ö'
+    "&uc 0xF9 0xD9":
+      tap: 'ù'
+      shifted: 'Ù'
+    "&uc 0xFA 0xDA":
+      tap: 'ú'
+      shifted: 'Ú'
+    "&uc 0xFB 0xDB":
+      tap: 'û'
+      shifted: 'Û'
+    "&uc 0xFC 0xDC":
+      tap: 'ü'
+      shifted: 'Ü'
+    "&uc 0xFD 0xDD":
+      tap: 'ý'
+      shifted: 'Ý'
+    "&uc 0xFF 0x178":
+      tap: 'ÿ'
+      shifted: 'Ÿ'
+    "&uc UC_SET_LINUX":
+      tap: 'Linux'
+    "&uc UC_SET_MACOS":
+      tap: 'macOS'
+    "&uc 0xffffff 0x0":
+      tap: 'macOS'
+    "&uc 0xffffff 0x1":
+      tap: 'Linux'
 
   # ZMK
   zmk_keycode_map:
