@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-space$$
   - LAYER2
-  - '&acute_dead'
+  - $$mdi:backspace-reverse-outline$$
   - {t: \, s: '|'}
   LAYER1:
   - {t: '`', s: '~'}
