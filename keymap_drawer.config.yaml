@@ -341,10 +341,6 @@ parse_config:
       shifted: 'Ÿ'
     "&uc UC_SET_LINUX":
       tap: 'Linux'
-    "&uc UC_SET_MACOS":
-      tap: 'macOS'
-    "&uc 0xffffff 0x0":
-      tap: 'macOS'
     "&uc 0xffffff 0x1":
       tap: 'Linux'
 

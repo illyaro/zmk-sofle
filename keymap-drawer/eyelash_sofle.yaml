@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - USB Linux
   - OUT BLE
-  - USB macOS
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -222,7 +222,7 @@ layers:
   - {t: ó, s: Ó}
   - {t: ö, s: Ö}
   - {t: ÿ, s: Ÿ}
-  - macOS
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: á, s: Á}
   - {t: à, s: À}
   - {t: â, s: Â}
@@ -230,9 +230,9 @@ layers:
   - {t: ã, s: Ã}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: å, s: Å}
-  - {t: ì, s: Ì}
-  - {t: î, s: Î}
+  - {t: ü, s: Ü}
   - {t: ï, s: Ï}
+  - {t: ì, s: Ì}
   - {t: ò, s: Ò}
   - {t: ô, s: Ô}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -245,7 +245,7 @@ layers:
   - {t: ñ, s: Ñ}
   - {t: ù, s: Ù}
   - {t: û, s: Û}
-  - {t: ü, s: Ü}
+  - {t: î, s: Î}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}

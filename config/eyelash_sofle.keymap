@@ -102,14 +102,6 @@
 
             label = "USB_LINUX";
         };
-
-        usb_mac: usb_mac {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&out OUT_USB &uc UC_SET_MACOS>;
-
-            label = "USB_MAC";
-        };
     };
 
     keymap {
@@ -145,7 +137,7 @@
             bindings = <
 &kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
 &trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &usb_linux    &out OUT_BLE    &usb_mac      &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
+&trans     &usb_linux    &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
@@ -158,8 +150,8 @@
             bindings = <
 &trans            &trans            &trans            &trans            &trans            &trans                &trans            &trans            &trans            &trans            &trans            &uc 0xF5 0xD5     &trans
 &trans            &uc 0xE8 0xC8     &uc 0xEA 0xCA     &uc 0xE9 0xC9     &uc 0xEB 0xCB     &uc UC_SET_LINUX      &trans            &uc 0xFD 0xDD     &uc 0xFA 0xDA     &uc 0xED 0xCD     &uc 0xF3 0xD3     &uc 0xF6 0xD6     &uc 0xFF 0x178
-&uc UC_SET_MACOS  &uc 0xE1 0xC1     &uc 0xE0 0xC0     &uc 0xE2 0xC2     &uc 0xE4 0xC4     &uc 0xE3 0xC3         &trans            &uc 0xE5 0xC5     &uc 0xEC 0xCC     &uc 0xEE 0xCE     &uc 0xEF 0xCF     &uc 0xF2 0xD2     &uc 0xF4 0xD4
-&trans            &trans            &trans            &uc 0xE7 0xC7     &trans            &trans                &trans            &uc 0xF1 0xD1     &uc 0xF9 0xD9     &uc 0xFB 0xDB     &uc 0xFC 0xDC     &trans            &trans
+&trans            &uc 0xE1 0xC1     &uc 0xE0 0xC0     &uc 0xE2 0xC2     &uc 0xE4 0xC4     &uc 0xE3 0xC3         &trans            &uc 0xE5 0xC5     &uc 0xFC 0xDC     &uc 0xEF 0xCF     &uc 0xEC 0xCC     &uc 0xF2 0xD2     &uc 0xF4 0xD4
+&trans            &trans            &trans            &uc 0xE7 0xC7     &trans            &trans                &trans            &uc 0xF1 0xD1     &uc 0xF9 0xD9     &uc 0xFB 0xDB     &uc 0xEE 0xCE     &trans            &trans
 &trans            &trans            &trans            &trans            &trans            &trans                &trans            &trans            &trans            &trans            &trans            &trans
             >;
 
